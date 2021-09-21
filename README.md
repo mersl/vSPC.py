@@ -71,7 +71,7 @@ correctly, you'll also need to launch the server with the --ssl, --cert,
 and possibly --key options.
 
 REMARK: some versions of vCenter may not allow you to enter an Port URI and leave the OK button grayed out.
-See also (https://kb.vmware.com/s/article/83898)
+See also [VMware KB 83898](https://kb.vmware.com/s/article/83898)
 
 # Running the Concentrator
 
