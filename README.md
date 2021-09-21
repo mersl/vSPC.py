@@ -55,7 +55,7 @@ follows:
 ```
     (*) Use Network
       (*) Server
-      Port URI: vSPC.py
+      Port URI: tcp://vSPC.py
       [X] Use Virtual Serial Port Concentrator:
       vSPC: telnet://hostname:proxy_port
 ```
@@ -69,6 +69,9 @@ TLS/SSL, configure the serial port as above, except for the vSPC field,
 which should specify telnets instead of telnet. For this to work
 correctly, you'll also need to launch the server with the --ssl, --cert,
 and possibly --key options.
+
+REMARK: some versions of vCenter may not allow you to enter an Port URI and leave the OK button grayed out.
+See also (https://kb.vmware.com/s/article/83898)
 
 # Running the Concentrator
 
