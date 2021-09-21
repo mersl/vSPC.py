@@ -29,7 +29,7 @@
 # authors and should not be interpreted as representing official policies, either expressed
 # or implied, of <copyright holder>.
 
-BASENAME = b'vSPC.py'
+BASENAME = b'tcp://vSPC.py'
 
 import logging
 import struct
