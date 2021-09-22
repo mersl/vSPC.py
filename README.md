@@ -55,7 +55,7 @@ follows:
 ```
     (*) Use Network
       (*) Server
-      Port URI: tcp://vSPC.py
+      Port URI: tcp://vSPC.py:13370
       [X] Use Virtual Serial Port Concentrator:
       vSPC: telnet://hostname:proxy_port
 ```
